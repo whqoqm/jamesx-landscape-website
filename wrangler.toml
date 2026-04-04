@@ -1,0 +1,12 @@
+name = "jamesx-landscape"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "."
+
+# To deploy, run:
+#   npx wrangler pages deploy .
+#
+# You need a CLOUDFLARE_API_TOKEN set in your environment:
+#   export CLOUDFLARE_API_TOKEN="your_token_here"
+#
+# Create a token at: https://dash.cloudflare.com/profile/api-tokens
+# Recommended: "Edit Cloudflare Workers" template is sufficient for Pages deploys.

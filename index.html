@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>James X — Landscape Photography</title>
+  <meta name="description" content="James X — Capturing the raw beauty of the Pacific Northwest and beyond. Landscape photography portfolio." />
+  <meta property="og:title" content="James X — Landscape Photography" />
+  <meta property="og:description" content="Capturing the raw beauty of the Pacific Northwest and beyond." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <a href="index.html" class="nav-logo">James<span>X</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" aria-hidden="true">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" aria-label="Featured photographs">
+    <div class="hero-slides"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Landscape Photography</p>
+      <h1 class="hero-title">James X</h1>
+      <p class="hero-subtitle">Pacific Northwest &amp; Beyond</p>
+    </div>
+    <div class="hero-dots" role="tablist" aria-label="Slide navigation"></div>
+    <div class="hero-scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Brief Intro -->
+  <section class="section" id="intro">
+    <div style="max-width:640px;margin:0 auto;text-align:center;">
+      <p class="section-label">The Work</p>
+      <h2 class="section-title" style="font-size:clamp(20px,3vw,32px);font-weight:300;line-height:1.6;color:var(--text-muted);">
+        Chasing light across mountain ridges, coastal cliffs,<br>
+        and old-growth forests — one frame at a time.
+      </h2>
+      <div style="margin-top:40px;">
+        <a href="gallery.html" style="
+          display:inline-block;
+          padding:14px 40px;
+          border:1px solid var(--accent);
+          color:var(--accent);
+          font-size:11px;
+          letter-spacing:0.3em;
+          text-transform:uppercase;
+          transition:all 0.4s;
+        " onmouseover="this.style.background='var(--accent)';this.style.color='var(--bg)'"
+           onmouseout="this.style.background='';this.style.color='var(--accent)'">
+          View Gallery
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Selected Work Preview -->
+  <section class="section--tight" style="padding-top:40px;">
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="optimized/DSC_4479_ffff1.jpg" alt="Mountain landscape" loading="lazy" />
+        <div class="gallery-item-info"><span>Mountain Light</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="optimized/DSC_8958_ffff1.jpg" alt="Coastal cliffs" loading="lazy" />
+        <div class="gallery-item-info"><span>Coastal Cliffs</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="optimized/DSC_5586_ffff1.jpg" alt="Forest scene" loading="lazy" />
+        <div class="gallery-item-info"><span>Old Growth</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="optimized/DSC_5571-Edit_fff1.jpg" alt="Golden hour landscape" loading="lazy" />
+        <div class="gallery-item-info"><span>Golden Hour</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="optimized/DSC_2070_fff1.jpg" alt="Pacific Northwest" loading="lazy" />
+        <div class="gallery-item-info"><span>Pacific Northwest</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="optimized/DSC_0988_fff1.jpg" alt="Dramatic sky" loading="lazy" />
+        <div class="gallery-item-info"><span>Dramatic Sky</span></div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:48px;">
+      <a href="gallery.html" style="font-size:11px;letter-spacing:0.3em;text-transform:uppercase;color:var(--text-muted);border-bottom:1px solid rgba(255,255,255,0.15);padding-bottom:4px;transition:color 0.3s;"
+         onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-muted)'">
+        All 30 Photos &rarr;
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-logo">James<span style="color:var(--accent)">X</span></div>
+    <div class="footer-social">
+      <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://500px.com" target="_blank" rel="noopener">500px</a>
+    </div>
+    <p class="footer-copy">&copy; 2024 James X. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
