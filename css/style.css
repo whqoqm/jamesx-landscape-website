@@ -701,8 +701,9 @@ ul { list-style: none; }
   .section, .section--tight { padding: 80px 24px; }
 
   .hero { aspect-ratio: 16 / 9; max-height: 70vh; }
-  .hero-content { bottom: 40px; padding: 0 16px; }
+  .hero-content { bottom: 20px; padding: 0 16px; z-index: 5; }
   .hero-subtitle { font-size: 10px; }
+  .hero-scroll { z-index: 15; }
 
   .about {
     grid-template-columns: 1fr;
@@ -720,7 +721,7 @@ ul { list-style: none; }
     padding: 40px 24px;
   }
 
-  .hero-dots { right: 24px; bottom: 80px; }
+  .hero-dots { right: 24px; bottom: 60px; }
 
   .lightbox-prev { left: 8px; }
   .lightbox-next { right: 8px; }
