@@ -1,0 +1,6 @@
+originals.zip
+full_res/
+optimized-old/
+node_modules/
+*.log
+.DS_Store
