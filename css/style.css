@@ -703,7 +703,7 @@ ul { list-style: none; }
   .hero { aspect-ratio: 16 / 9; max-height: 70vh; }
   .hero-content { bottom: 20px; padding: 0 16px; z-index: 5; }
   .hero-subtitle { font-size: 10px; }
-  .hero-scroll { z-index: 15; }
+  .hero-scroll { display: none; }
 
   .about {
     grid-template-columns: 1fr;
