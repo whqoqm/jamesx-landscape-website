@@ -69,11 +69,13 @@ ul { list-style: none; }
 }
 
 .nav-logo {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--text);
+  line-height: 1.4;
+  text-align: center;
 }
 
 .nav-logo span {
