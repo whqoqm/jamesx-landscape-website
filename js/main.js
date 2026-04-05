@@ -27,7 +27,7 @@
       slide.className = 'hero-slide' + (i === 0 ? ' active' : '');
       const img = document.createElement('img');
       img.src = `optimized/${photo}`;
-      img.alt = 'James X Landscape Photography';
+      img.alt = 'James Xiang Landscape Photography';
       img.loading = i === 0 ? 'eager' : 'lazy';
       slide.appendChild(img);
       container.appendChild(slide);
