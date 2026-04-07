@@ -398,8 +398,10 @@ ul { list-style: none; }
 
 .about-image img {
   width: 100%;
-  max-width: 400px;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 2/3;
+  object-position: center top;
 }
 
 .about-image::after {
