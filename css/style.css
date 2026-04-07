@@ -78,7 +78,7 @@ ul { list-style: none; }
 
 .nav-logo-name {
   font-family: var(--font-serif);
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 0.08em;
   color: var(--text);
